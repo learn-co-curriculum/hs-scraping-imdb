@@ -36,7 +36,6 @@ class IMDbScraper
 	def get_mpaa_rating
 		mpaa_rating = @imdb_nokogiri.css('span[itemprop=contentRating]').text
 	end
-
 end
 
 scraper = IMDbScraper.new('http://www.imdb.com/title/tt0111161/')
