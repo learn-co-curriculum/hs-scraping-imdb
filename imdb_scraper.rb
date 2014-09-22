@@ -5,16 +5,12 @@ require 'open-uri'
 class IMDbScraper
 
 	def initialize(site)
-		@imdb_html = open(site)
-		@imdb_nokogiri = Nokogiri::HTML(@imdb_html)
+		imdb_html = open(site)
+		@imdb_nokogiri = Nokogiri::HTML(imdb_html)
 	end
 
 	def get_all_info
-		"Movie: #{get_movie_title}\n
-		Director: #{get_director}\n
-		Stars: #{get_stars}\n
-		Storyline: #{get_storyline}\n
-		Rating: #{get_mpaa_rating}\n"
+		"Movie: #{get_movie_title}\nDirector: #{get_director}\nStars: #{get_stars}\nStoryline: #{get_storyline}\nRating: #{get_mpaa_rating}\n"
 	end
 
 	def get_movie_title
@@ -43,5 +39,5 @@ class IMDbScraper
 
 end
 
-scraper = IMDbScraper.new('http://www.imdb.com/title/tt1291150/?ref_=hm_cht_t4')
-puts scraper.get_storyline
+scraper = IMDbScraper.new('http://www.imdb.com/title/tt0111161/')
+puts scraper.get_all_info
