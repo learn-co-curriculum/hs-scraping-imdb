@@ -163,4 +163,10 @@ Let's add in one last method that takes all of the scraped data and puts it in a
   ```
   This returns:
 
+  >Movie: The Shawshank Redemption
+  >Director: Frank Darabont
+  >Stars: Tim Robbins, Morgan Freeman, Bob Gunton
+  >Storyline: Andy Dufresne is a young and successful banker whose life changes drastically when he is convicted and sentenced to life imprisonment for the murder of his wife and her lover. Set in the 1940's, the film shows how Andy, with the help of his friend Red, the prison entrepreneur, turns out to be a most unconventional prisoner.
+  >Rating: Rated R for language and prison violence
+
 
