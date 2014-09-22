@@ -5,7 +5,6 @@ require 'open-uri'
 class IMDbScraper
 
 	def initialize(site)
-		@site = site
 		@imdb_html = open(site)
 		@imdb_nokogiri = Nokogiri::HTML(@imdb_html)
 	end
