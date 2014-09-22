@@ -6,7 +6,7 @@ type: walkthrough, demo
 ---
 
 ## Scraping IMDB
--> <img src="http://cdn.fansided.com/wp-content/blogs.dir/98/files/2014/07/watch-teenage-mutant-ninja-turtles-season-2-episode-16-online-the-lonely-mutation-of-baxter-stockman-threatens-to-mutate-april-is-the-new-n.png" width=300px> <-
+<img src="http://cdn.fansided.com/wp-content/blogs.dir/98/files/2014/07/watch-teenage-mutant-ninja-turtles-season-2-episode-16-online-the-lonely-mutation-of-baxter-stockman-threatens-to-mutate-april-is-the-new-n.png" width=300px>
 
 We're going to move from a curated example of scraping to a REAL WORLD application of scraping! Have you heard of IMDb? It's only the coolest movie site ever to exist on the planet. IMDb stands for the Internet Movie Database. Let's say you were going to build a website or app that showcases your favorite movies. Would you want to manually type in all of the information for every movie that you've enjoyed? No, you proabably would rather automate the process. That's where the power of scraping comes in.
 
