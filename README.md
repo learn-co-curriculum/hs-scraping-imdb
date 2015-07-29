@@ -1,9 +1,4 @@
----
-tags: nokogiri, scraping, kids
-language: ruby
-level: 3
-type: walkthrough, demo
----
+
 
 ## Scraping IMDB
 ![Teenage Mutatnt Ninja Turtles](http://cdn.fansided.com/wp-content/blogs.dir/98/files/2014/07/watch-teenage-mutant-ninja-turtles-season-2-episode-16-online-the-lonely-mutation-of-baxter-stockman-threatens-to-mutate-april-is-the-new-n.png)
