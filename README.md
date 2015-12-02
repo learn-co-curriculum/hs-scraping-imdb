@@ -170,3 +170,5 @@ Let's add in one last method that takes all of the scraped data and puts it in a
   >Rating: Rated R for language and prison violence
 
 
+
+<a href='https://learn.co/lessons/hs-scraping-imdb' data-visibility='hidden'>View this lesson on Learn.co</a>
