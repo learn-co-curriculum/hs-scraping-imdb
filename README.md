@@ -171,4 +171,4 @@ Let's add in one last method that takes all of the scraped data and puts it in a
 
 
 
-<a href='https://learn.co/lessons/hs-scraping-imdb' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-scraping-imdb' title='Scraping IMDB'>Scraping IMDB</a> on Learn.co and start learning to code for free.</p>
