@@ -1,0 +1,17 @@
+<style>
+#colorCode1{
+    color:blue;
+}
+<style>
+
+<script language=javascript type="text/javascript">
+    function setVisible( setting ){
+       var myElement = document.getElementById("colorCode1");
+       if(myElement.style.color=="blue"){
+            myElement.innerHTML = getPageContentForBlueCode();
+       }
+       if(myElement.style.color=="red"){
+            myElement.innerHTML = getPageContentForRedCode();
+       }
+     }
+</script>
